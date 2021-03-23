@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://shankhan:shan@2001@contactkeeper.faait.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "jwtSecret": "secret"
-}
