@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&display=swap');
+
+@import 'mixin';
+
+$bg_water: #2aa2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  background-color: #ffca;
+  margin: 6rem 0;
+}
+
+.main_div {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4.4rem;
+  background: #444;
+  color: white;
+  z-index: 1;
+  box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+  & h2 {
+    display: flex;
+    margin-left: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 7px 5px 7px 1px rgba(0, 0, 0, 0.5);
+
+    & .icon {
+      display: flex;
+      font-size: 2rem;
+    }
+  }
+  & div {
+    margin-right: 2rem;
+  }
+
+  & div a {
+    font-size: 2rem;
+  }
+  & .active_nav {
+    color: aquamarine;
+    font-size: 1.5rem;
+  }
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 0 2rem;
+  font-size: 2rem;
+  background-color: tomato;
+
+  & .icon {
+    display: flex;
+    font-size: 2rem;
+  }
+}
+
+.form {
+  position: relative;
+  width: 100vw;
+  height: 15vh;
+
+  & input[type='text'] {
+    display: block;
+    width: 70vw;
+    font-size: 2rem;
+    outline: none;
+    border: 1px solid grey;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0.8rem;
+    opacity: 0.7;
+    margin: 1.5rem auto 1.5rem auto;
+    box-shadow: 7px 5px 7px 1px rgba(0, 0, 0, 0.5);
+  }
+}
+input[type='submit'],
+button {
+  cursor: pointer;
+  @include button(block, 60%, auto);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.users_grid {
+  @include grid(4, center);
+
+  & .container {
+    @include container(1rem, 0, column, center);
+  }
+  & img {
+    @include avatar(10rem);
+  }
+  & h3 {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.user {
+  & button {
+    @include button(inline-block, fit-content, 1rem);
+  }
+
+  & span {
+    display: inline-flex;
+    align-items: center;
+    font-size: 2rem;
+  }
+  & .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 2rem;
+  }
+  & .user_grid {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    @include grid(2, left);
+    margin: 0 1rem;
+    min-width: fit-content;
+
+    & .left {
+      @include container(0.1rem, 1rem, column, center);
+      margin-top: 1rem;
+      border: none;
+
+      & a {
+        padding: 0;
+      }
+
+      & .right {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .web {
+      color: tomato;
+      text-shadow: none;
+      font-size: 1.8rem;
+
+      & p {
+        border-bottom: 1px solid #444;
+      }
+
+      &:hover {
+        color: #4a4a4a;
+        font-size: 1.7rem;
+      }
+    }
+    & img {
+      @include avatar(15rem);
+    }
+  }
+  & .container {
+    @include container(0, 2rem, row, space-evenly);
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+
+    & .card_1 {
+      @include card(#bb03bb, white);
+    }
+    & .card_2 {
+      @include card(#ff9898, black);
+    }
+    & .card_3 {
+      @include card(green, white);
+    }
+    & .card_4 {
+      @include card(skyblue, black);
+    }
+  }
+}
+
+.repos {
+  text-shadow: none;
+  margin: 1rem;
+
+  & .repo {
+    display: block;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+
+    & a {
+      color: tomato;
+      cursor: pointer;
+
+      &:hover {
+        color: #aaa;
+        font-size: 2.1rem;
+      }
+    }
+  }
+}
+
+.spinner {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+
+  & h3 {
+    width: fit-content;
+    height: 100%;
+    color: #fff;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .users_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .users_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
