@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -17,13 +17,11 @@ const App = () => {
       <AlertState>
         <div className="main_div">
           <Navbar />
-          <div>
-            <Switch>
-              <Route exact path="/user/:login" component={User} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/" component={Home} />
-            </Switch>
-          </div>
+          <Switch>
+            <Route exact path="/user/:login" component={User} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={Home} />
+          </Switch>
           <Footer />
         </div>
       </AlertState>

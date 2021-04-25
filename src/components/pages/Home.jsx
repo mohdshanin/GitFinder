@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import Search from './components/layout/Search';
-import Users from './components/users/Users';
+import Search from '../layout/Search';
+import Users from '../users/Users';
 
 const Home = () => {
   return (
