@@ -6,6 +6,7 @@ import Footer from './components/layout/Footer';
 import User from './components/users/User';
 import About from './components/pages/About';
 import Home from './components/pages/Home';
+import NotFound from './components/pages/NotFound';
 import './sass/App.css';
 
 import GithubState from './context/github/GithubState';
@@ -21,6 +22,7 @@ const App = () => {
             <Route exact path="/" component={Home} />
             <Route exact path="/user/:login" component={User} />
             <Route exact path="/about" component={About} />
+            <Route component={NotFound} />
           </Switch>
           <Footer />
         </div>
