@@ -19,9 +19,9 @@ const App = () => {
         <div className="main_div">
           <Navbar />
           <Switch>
-            <Route exact path="/Gitfinder/" component={Home} />
             <Route exact path="/Gitfinder/user/:login" component={User} />
             <Route exact path="/Gitfinder/about" component={About} />
+            <Route exact path="/Gitfinder/" component={Home} />
             <Route component={NotFound} />
           </Switch>
           <Footer />
