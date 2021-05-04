@@ -19,8 +19,6 @@ const User = ({ match }) => {
     login,
     avatar_url,
     html_url,
-    // followers_url,
-    // following_url,
     name,
     company,
     blog,
