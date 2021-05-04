@@ -33,7 +33,7 @@ const GithubState = (props) => {
     githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET;
   }
 
-  //* First 30 Users
+  //todo First 30 Users
   const FirstUsers = async () => {
     setLoading();
     const res = await axios.get(`https://api.github.com/users`);
@@ -62,7 +62,7 @@ const GithubState = (props) => {
     });
   };
 
-  // Search Single User
+  //* Search Single User
   const getUser = async (login) => {
     setLoading(true);
     const res = await axios.get(
@@ -74,7 +74,7 @@ const GithubState = (props) => {
     });
   };
 
-  // User Repos
+  //* User Repos
   const getUserRepos = async (login) => {
     setLoading(true);
     const res = await axios.get(

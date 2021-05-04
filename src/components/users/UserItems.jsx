@@ -7,7 +7,7 @@ const UserItems = ({ user: { avatar_url, login } }) => {
       <img src={avatar_url} alt="img" />
       <h3>{login} </h3>
       <button>
-        <Link to={`/user/${login}`}>More</Link>
+        <Link to={`Gitfinder/${login}`}>More</Link>
       </button>
     </div>
   );
