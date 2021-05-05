@@ -23,11 +23,6 @@ body {
   margin: 6rem 0;
 }
 
-.main_div {
-  width: 100%;
-  height: 100%;
-}
-
 .nav {
   position: fixed;
   top: 0;
@@ -250,7 +245,18 @@ a {
     margin: auto;
   }
 }
-
+.about {
+  width: 100%;
+  height: 86.2vh;
+}
+.not_found {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 86.2vh;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 1000px) {
   .users_grid {
     grid-template-columns: repeat(3, 1fr);

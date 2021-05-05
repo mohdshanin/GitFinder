@@ -22,6 +22,7 @@ const App = () => {
             <Route exact path="/Gitfinder/user/:login" component={User} />
             <Route exact path="/Gitfinder/about" component={About} />
             <Route exact path="/Gitfinder/" component={Home} />
+            <Route path="/Gitfinder" component={NotFound} />
             <Route component={NotFound} />
           </Switch>
           <Footer />

@@ -5,8 +5,10 @@ import Users from '../users/Users';
 const Home = () => {
   return (
     <Fragment>
-      <Search />
-      <Users />
+      <div className="home">
+        <Search />
+        <Users />
+      </div>
     </Fragment>
   );
 };

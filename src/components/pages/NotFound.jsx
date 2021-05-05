@@ -3,7 +3,7 @@ import InfoIcon from '@material-ui/icons/Info';
 
 const NotFound = () => {
   return (
-    <div className="spinner">
+    <div className="not_found">
       <span className="alert">
         <InfoIcon className="icon" /> Error
       </span>
