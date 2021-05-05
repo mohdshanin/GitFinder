@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Gitfinder/static/css/main.58633af1.chunk.css",
-    "main.js": "/Gitfinder/static/js/main.0001cc46.chunk.js",
-    "main.js.map": "/Gitfinder/static/js/main.0001cc46.chunk.js.map",
+    "main.css": "/Gitfinder/static/css/main.b52be6fb.chunk.css",
+    "main.js": "/Gitfinder/static/js/main.32bb724c.chunk.js",
+    "main.js.map": "/Gitfinder/static/js/main.32bb724c.chunk.js.map",
     "runtime-main.js": "/Gitfinder/static/js/runtime-main.8ad34fe2.js",
     "runtime-main.js.map": "/Gitfinder/static/js/runtime-main.8ad34fe2.js.map",
     "static/js/2.447a9edb.chunk.js": "/Gitfinder/static/js/2.447a9edb.chunk.js",
     "static/js/2.447a9edb.chunk.js.map": "/Gitfinder/static/js/2.447a9edb.chunk.js.map",
     "index.html": "/Gitfinder/index.html",
-    "static/css/main.58633af1.chunk.css.map": "/Gitfinder/static/css/main.58633af1.chunk.css.map",
+    "static/css/main.b52be6fb.chunk.css.map": "/Gitfinder/static/css/main.b52be6fb.chunk.css.map",
     "static/js/2.447a9edb.chunk.js.LICENSE.txt": "/Gitfinder/static/js/2.447a9edb.chunk.js.LICENSE.txt",
     "static/media/Ripple.f3549b55.gif": "/Gitfinder/static/media/Ripple.f3549b55.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.8ad34fe2.js",
     "static/js/2.447a9edb.chunk.js",
-    "static/css/main.58633af1.chunk.css",
-    "static/js/main.0001cc46.chunk.js"
+    "static/css/main.b52be6fb.chunk.css",
+    "static/js/main.32bb724c.chunk.js"
   ]
 }
