@@ -36,7 +36,9 @@ const GithubState = (props) => {
   //todo First 30 Users
   const FirstUsers = async () => {
     setLoading();
-    const res = await axios.get(`https://api.github.com/users`);
+    const res = await axios.get(
+      `https://api.github.com/users?client_id=${githubClientId}&client_secret=${githubClientSecret}`
+    );
     dispatch({
       type: FIRST_USERS,
       payload: res.data,

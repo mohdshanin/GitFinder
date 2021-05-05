@@ -162,6 +162,7 @@ a {
   padding-top: 1rem;
   border: 1px solid #d1d0d0;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .users_grid img {
@@ -249,6 +250,7 @@ a {
   padding-top: 0.1rem;
   border: 1px solid #d1d0d0;
   border-radius: 10px;
+  overflow: hidden;
   margin-top: 1rem;
   border: none;
 }
@@ -303,6 +305,7 @@ a {
   padding-top: 0;
   border: 1px solid #d1d0d0;
   border-radius: 10px;
+  overflow: hidden;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
