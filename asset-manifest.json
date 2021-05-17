@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Gitfinder/static/css/main.4c780737.chunk.css",
-    "main.js": "/Gitfinder/static/js/main.341c9b65.chunk.js",
-    "main.js.map": "/Gitfinder/static/js/main.341c9b65.chunk.js.map",
-    "runtime-main.js": "/Gitfinder/static/js/runtime-main.8ad34fe2.js",
-    "runtime-main.js.map": "/Gitfinder/static/js/runtime-main.8ad34fe2.js.map",
-    "static/js/2.447a9edb.chunk.js": "/Gitfinder/static/js/2.447a9edb.chunk.js",
-    "static/js/2.447a9edb.chunk.js.map": "/Gitfinder/static/js/2.447a9edb.chunk.js.map",
-    "index.html": "/Gitfinder/index.html",
-    "static/css/main.4c780737.chunk.css.map": "/Gitfinder/static/css/main.4c780737.chunk.css.map",
-    "static/js/2.447a9edb.chunk.js.LICENSE.txt": "/Gitfinder/static/js/2.447a9edb.chunk.js.LICENSE.txt",
-    "static/media/Ripple.f3549b55.gif": "/Gitfinder/static/media/Ripple.f3549b55.gif"
+    "main.css": "/GitFinder/static/css/main.4c780737.chunk.css",
+    "main.js": "/GitFinder/static/js/main.db48841d.chunk.js",
+    "main.js.map": "/GitFinder/static/js/main.db48841d.chunk.js.map",
+    "runtime-main.js": "/GitFinder/static/js/runtime-main.edc6e9b4.js",
+    "runtime-main.js.map": "/GitFinder/static/js/runtime-main.edc6e9b4.js.map",
+    "static/js/2.447a9edb.chunk.js": "/GitFinder/static/js/2.447a9edb.chunk.js",
+    "static/js/2.447a9edb.chunk.js.map": "/GitFinder/static/js/2.447a9edb.chunk.js.map",
+    "index.html": "/GitFinder/index.html",
+    "static/css/main.4c780737.chunk.css.map": "/GitFinder/static/css/main.4c780737.chunk.css.map",
+    "static/js/2.447a9edb.chunk.js.LICENSE.txt": "/GitFinder/static/js/2.447a9edb.chunk.js.LICENSE.txt",
+    "static/media/Ripple.f3549b55.gif": "/GitFinder/static/media/Ripple.f3549b55.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ad34fe2.js",
+    "static/js/runtime-main.edc6e9b4.js",
     "static/js/2.447a9edb.chunk.js",
     "static/css/main.4c780737.chunk.css",
-    "static/js/main.341c9b65.chunk.js"
+    "static/js/main.db48841d.chunk.js"
   ]
 }
