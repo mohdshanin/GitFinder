@@ -39,7 +39,7 @@ const User = ({ match }) => {
     return (
       <div className="user">
         <button style={{ backgroundColor: '#aaa' }}>
-          <Link to="/Gitfinder/">Back To Search</Link>
+          <Link to="/GitFinder/">Back To Search</Link>
         </button>
         <span>
           Hireable:

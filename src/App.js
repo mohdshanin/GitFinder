@@ -19,10 +19,10 @@ const App = () => {
         <div className="main_div">
           <Navbar />
           <Switch>
-            <Route exact path="/Gitfinder/user/:login" component={User} />
-            <Route exact path="/Gitfinder/about" component={About} />
-            <Route exact path="/Gitfinder/" component={Home} />
-            <Route path="/Gitfinder" component={NotFound} />
+            <Route exact path="/GitFinder/user/:login" component={User} />
+            <Route exact path="/GitFinder/about" component={About} />
+            <Route exact path="/GitFinder/" component={Home} />
+            <Route path="/GitFinder" component={NotFound} />
             <Route component={NotFound} />
           </Switch>
           <Footer />
