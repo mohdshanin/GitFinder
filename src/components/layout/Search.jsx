@@ -1,4 +1,4 @@
-import React, { useState, Fragment, useContext, useEffect } from 'react';
+import React, { useState, Fragment, useContext } from 'react';
 import Alert from './Alert';
 
 import GithubContext from '../../context/github/githubContext';
@@ -9,11 +9,6 @@ const Search = () => {
   const alertContext = useContext(AlertContext);
 
   const [text, setText] = useState('');
-
-  useEffect(() => {
-    githubContext.FirstUsers();
-    // eslint-disable-next-line
-  }, []);
 
   const onChange = (e) => {
     setText(e.target.value);
