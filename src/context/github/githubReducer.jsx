@@ -20,7 +20,7 @@ const githubReducer = (state, action) => {
     case REMOVE_USERS:
       return { ...state, users: [], loading: false };
     case SET_LOADING:
-      return { ...state, loading: false };
+      return { ...state, loading: true };
     default:
       return state;
   }
